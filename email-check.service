@@ -1,0 +1,6 @@
+[Unit]
+Description=Run custom periodic task
+
+[Service]
+Type=oneshot
+ExecStart=/home/anishudupan/email/.venv/bin/python3 /home/anishudupan/email/new/main.py
